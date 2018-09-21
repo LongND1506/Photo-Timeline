@@ -41,6 +41,7 @@ class TimelineElement extends Component{
         <VerticalTimelineElement
         className="vertical-timeline-element--work"
         date={convertDate(album.dateAdded)}
+        style={{boxShadow:'5px 5px 5px #6c757d94 !important'}}
         iconStyle={{ background: '#137b68', color: '#fff' }}
         >
            <GridListTile key={album} cols={1} rows={1} className={classes.title}>
