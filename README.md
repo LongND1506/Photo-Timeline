@@ -1,5 +1,5 @@
 # Photo-Timeline
-A Demo using Nodejs(Express) and React-Redux <br/>
+A Demo using Nodejs(Express) and React - Redux Saga  <br/>
 # Features
 Authenticate user(sign up, login , logout, change password) , create Album with mutiple image upload, update tille - description of album, add-delete image,review image with full size carousel <br/>
 # Start<br/>
