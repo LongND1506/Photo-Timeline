@@ -7,6 +7,7 @@ import { withStyles } from '@material-ui/core/styles';
 import {connect} from 'react-redux'
 import ResponsiveCarousel from '../ResponsiveCarousel'
 import AlbumMenu from '../AlbumMenu'
+import style from './index.css'
 //Convert date format to dd/mm/yyy
 const convertDate=(date)=>{
     let d= new Date(date)
