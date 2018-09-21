@@ -88,6 +88,7 @@ function* logout(action){
 //Get album
 function* getalbum(action){
   try {
+    let userId=jwt.decode(localStorage.getItem('token')).user._id
     let res=yield call(callApi,URL+'album/'+userId,"GET")
     if(res.code==200){
       yield put(actions.getAlbumSuccess(res.albums))
